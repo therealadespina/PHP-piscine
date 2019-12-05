@@ -1,0 +1,172 @@
+/* header */
+body{
+	background-color: #505050;
+	font-family: Arial;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1420px;
+}
+
+header{
+	position: relative;
+	background-color: #909090;
+	height: 115px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.title{
+	padding-left: 5px;
+}
+
+.shadow{
+	-moz-box-shadow: 10px 10px 10px 0px #000;
+	-webkit-box-shadow: 10px 10px 10px 0px #000;
+	-o-box-shadow: 10px 10px 10px 0px #000;
+	box-shadow: 10px 10px 10px 0px #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.reload, .close{
+  	width: 19px;
+  	margin: 3px 1px 0 0;
+}
+
+.reload{
+    float: right;
+}
+
+.close{
+	margin: 3px 10px 10px 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.magnifier{
+	position: absolute;
+	bottom: -20px;
+	right: 33px;
+}
+/* main */
+.wrapper{
+	position: relative;
+	width: 1360px;
+	margin: 0 auto;
+}
+
+.container-left, .container-right{
+	box-sizing: border-box;
+	background-color: #909090;
+	height: 420px;
+	padding: 10px 0;
+}
+
+.container-left, .container-right{
+	width: 140px;
+}
+
+.container-middle{
+	background-color: #909090;
+	width: 1025px;
+	margin: 0 25px;
+	height: 580px;
+	float: left;
+}
+
+.container-left{
+	float: left;
+}
+
+.container-right{
+	float: right;
+}
+
+.container-middle>img{
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+	width: 1020px;
+	max-height: 100%;
+}
+
+.container-left>img{
+	width: 68px;
+	display: block;
+	margin: 10px auto;
+}
+
+.container-right>img{
+	width: 68px;
+	display: block;
+	margin: 10px auto;
+}
+
+.border_img{
+	border: 5px solid red;
+	border-radius: 5px;
+}
+
+.brick{
+	background: repeat url('resources/brick.jpg');
+	width: 120px;
+	height: 70px;
+	margin: 2px auto;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/*form */
+.form{
+	font-size: 17px;
+	position: absolute;
+	width: 510px;
+	height: 170px;
+	top: 500px;
+	left: -72px;
+	padding-left: 10px;
+	background-color: #88FF89;
+}
+
+.form>p{
+	line-height: 120%;
+	margin-bottom: -3px;
+}
+
+.bigger{
+	font-family: Times;
+	letter-spacing: 1px;
+	font-size: 37px;
+}
+
+.red{
+	text-shadow: 2px 5px 5px rgba(255, 77, 49, 1);
+}
+
+form{
+	padding-top: 2px;
+}
+input{
+	width: 380px;
+	height: 18px;
+	border: none;
+	border-top: 2px solid #A9A9A9;
+	border-left: 2px solid #A9A9A9;
+}
+
+.btn{
+    font-size: 13px;
+    height: 18px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    width: 80px;
+	background: #f5f7f6;
+	border: 1px solid #A8A4A5;
+}
